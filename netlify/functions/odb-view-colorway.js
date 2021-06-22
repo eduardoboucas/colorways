@@ -27,7 +27,7 @@ const handler = async (event, context) => {
     headers: {
       "Content-Type": "text/html",
     },
-    body: pageTemplate(data[0]),
+    body: pageTemplate(data),
   };
 };
 
