@@ -1,5 +1,5 @@
 const { getStore } = require("@netlify/functions");
-const nanoid = require("nanoid");
+const { nanoid } = require("nanoid");
 
 exports.handler = async (event, context) => {
   if (event.httpMethod !== "POST") {
